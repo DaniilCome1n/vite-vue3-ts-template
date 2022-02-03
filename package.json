@@ -1,0 +1,30 @@
+{
+  "name": "vite-vue-ts-template",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
+    "format": "prettier .  --write"
+  },
+  "dependencies": {
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.12",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.9",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "@vitejs/plugin-vue": "^2.0.1",
+    "@vue/eslint-config-typescript": "^10.0.0",
+    "eslint": "^7.0.0",
+    "eslint-plugin-vue": "^8.3.0",
+    "less": "^4.1.2",
+    "prettier": "^2.3.0",
+    "typescript": "^4.5.4",
+    "vite": "^2.7.12",
+    "vue-tsc": "^0.30.5"
+  }
+}
